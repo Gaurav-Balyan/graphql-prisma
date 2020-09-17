@@ -1,11 +1,17 @@
-+ Need to use Node version 12 to be able to successfully run prisma init command hence using nvm to use specific version
++ need to use Node version 12 to be able to successfully run prisma init command hence using nvm to use specific version
+
++ used graphql-yoga as graphql server
 
 + graphql config is used to get schema properties which would be created in generated folder to be used in NodeJS
 
-+ We can use http://localhost:4466 to communicate with graphql operations
++ we can use http://localhost:4466 to communicate with graphql operations
 
-+ Use prisma deploy -e ../config/prod.env for production
++ use prisma deploy -e ../config/{config}.env forpreferred environment
 
-+ Use prisma deploy -e ../config/dev.env for development
++ use environmental variables for confidential information
 
-+ Use environmental variables for confidential information
++ use jest for unit testing
+
++ use gql to generate graphql operations from client
+
++ deployed on heroku and used postgres for persisting data
